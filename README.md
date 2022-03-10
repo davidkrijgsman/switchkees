@@ -27,7 +27,6 @@ which(expr)
   .default(() => {
     console.log(`Sorry, we are out of ${expr}.`)
   })
-}
 ```
 Pass the clause you want to check into `Kees` as the first parameter. As the second parameter pass in the function you want to execute if the clause matches the expression.
 
