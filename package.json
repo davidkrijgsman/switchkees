@@ -1,0 +1,25 @@
+{
+  "name": "switchkees",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "David Krijgsman",
+  "license": "ISC",
+  "scripts": {
+    "prepare" : "npm run build",
+    "build": "tsc"
+  },
+  "files": ["lib/**/*"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidkrijgsman/switchkees.git"
+  },
+  "keywords": [
+    "Kees"
+  ],
+  "homepage": "https://github.com/davidkrijgsman/switchkees#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
